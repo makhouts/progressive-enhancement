@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;}
+
+body {
+    max-width: 90%;
+    background-image: url(https://www.wallpaperkiss.com/wimg/b/161-1611553_big.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 30px 300px;
+    background-position: bottom right;
+}
+
+.list li {
+    list-style-type: none;
+}
+
+img {
+    width: 500px;
+    display: block;
+    float: left;
+    margin-right: 30px;
+}
+
+.story {
+    width: 90em;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid black;
+}
+
+.styled-table td, .styled-table th  {
+    padding: 12px 15px;
+    border: 1px solid black;
+    padding: 12px 15px;
+
+}
+
+.styled-table tr {
+    border: 1px solid #dddddd;
+}
+
+.styled-table tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.styled-table tr:nth-of-type(odd) {
+    background-color: #9c9c9c;
+}
+
+.styled-table tr:last-of-type {
+    border-bottom: 3px solid #009879;
+}
+
+p {
+    font-family: serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #191970;
+}
+
+a {
+    font-size: 22px;
+    text-decoration: underline;
+    color: rgb(4, 114, 0);
+}
+
+a:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+a:visited {
+    color: rgb(255, 0, 43);
+  }
+
+  a:visited:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+  }
+
+q {
+    font-style: italic;
+}
+
+.villagers {
+    color: rgb(66, 255, 66);
+}
+
+.farmer {
+    color: hotpink;
+} 
+
+header em {
+    background-color: yellow;
+}
+
+.good, .bad {
+    text-transform: uppercase
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: rgb(0, 255, 0);
+}
+
+p:first-of-type {
+    font-weight: bold;
+}
